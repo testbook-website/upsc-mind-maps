@@ -23,7 +23,7 @@ export default function Navbar({ subjects, activeSubject, setActiveSubject, sear
         {/* Desktop Nav */}
         {isGallery && (
           <div style={{ display: 'flex', gap: 20, alignItems: 'center', flex: 1, minWidth: 0, justifyContent: 'flex-end' }} className="desktop-nav">
-            <div style={{ display: 'flex', gap: 15, overflowX: 'auto', msOverflowStyle: 'none', scrollbarWidth: 'none', paddingBottom: '4px' }}>
+            <div id="tour-nav" style={{ display: 'flex', gap: 15, overflowX: 'auto', msOverflowStyle: 'none', scrollbarWidth: 'none', paddingBottom: '4px' }}>
               {subjects.map(sub => (
                 <button 
                   key={sub}
@@ -41,7 +41,7 @@ export default function Navbar({ subjects, activeSubject, setActiveSubject, sear
               ))}
             </div>
 
-            <div style={{ position: 'relative' }}>
+            <div id="tour-search" style={{ position: 'relative' }}>
               <input 
                 type="text" 
                 placeholder="Search topics..." 

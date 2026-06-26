@@ -141,7 +141,7 @@ export default function Gallery({ mindmaps, activeSubject, searchTerm, masteredM
         </p>
 
         {/* MASTERY PROGRESS BAR */}
-        <div style={{ maxWidth: 500, margin: '0 auto', background: '#fff', padding: 20, borderRadius: 16, boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', border: '1px solid #e2e8f0' }}>
+        <div id="tour-progress" style={{ maxWidth: 500, margin: '0 auto', background: '#fff', padding: 20, borderRadius: 16, boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', border: '1px solid #e2e8f0' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 10 }}>
             <span style={{ fontWeight: 700, color: '#1e293b' }}>UPSC Mastery Progress</span>
             <span style={{ fontWeight: 700, color: '#10b981' }}>{masteredMindmaps.length}/{mindmaps.length} ({masteryPercentage}%)</span>

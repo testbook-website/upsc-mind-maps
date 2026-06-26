@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Gallery from './components/Gallery';
 import MindmapViewer from './components/MindmapViewer';
 import PasswordScreen from './components/PasswordScreen';
+import OnboardingTour from './components/OnboardingTour';
 import { mindmaps } from './data/mindmaps';
 
 function App() {
@@ -20,7 +21,15 @@ function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(() => {
     return sessionStorage.getItem('upsc_auth') === 'true';
   });
+  const [hasSeenTour, setHasSeenTour] = useState(() => {
+    return localStorage.getItem('upsc_tour_seen') === 'true';
+  });
   const location = useLocation();
+
+  const finishTour = () => {
+    setHasSeenTour(true);
+    localStorage.setItem('upsc_tour_seen', 'true');
+  };
 
   useEffect(() => {
     localStorage.setItem('upsc_mastered_mindmaps', JSON.stringify(masteredMindmaps));
@@ -74,6 +83,10 @@ function App() {
           </Routes>
         </AnimatePresence>
       </main>
+
+      {isAuthenticated && !hasSeenTour && (
+        <OnboardingTour onFinish={finishTour} />
+      )}
     </div>
   );
 }
