@@ -6,6 +6,7 @@ import Gallery from './components/Gallery';
 import MindmapViewer from './components/MindmapViewer';
 import PasswordScreen from './components/PasswordScreen';
 import OnboardingTour from './components/OnboardingTour';
+import SplashIntro from './components/SplashIntro';
 import { mindmaps } from './data/mindmaps';
 
 function App() {
@@ -24,7 +25,15 @@ function App() {
   const [hasSeenTour, setHasSeenTour] = useState(() => {
     return localStorage.getItem('upsc_tour_seen') === 'true';
   });
+  const [showSplash, setShowSplash] = useState(() => {
+    return sessionStorage.getItem('upsc_splash_seen') !== 'true';
+  });
   const location = useLocation();
+
+  const handleSplashComplete = () => {
+    setShowSplash(false);
+    sessionStorage.setItem('upsc_splash_seen', 'true');
+  };
 
   const finishTour = () => {
     setHasSeenTour(true);
@@ -52,6 +61,10 @@ function App() {
 
   if (!isAuthenticated) {
     return <PasswordScreen onAuthenticate={handleAuthenticate} />;
+  }
+
+  if (showSplash) {
+    return <SplashIntro onComplete={handleSplashComplete} />;
   }
 
   // Extract unique subjects
