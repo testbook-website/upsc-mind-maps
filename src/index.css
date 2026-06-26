@@ -424,6 +424,49 @@ a {
   0% { transform: translateY(50px) scale(0.8); opacity: 0; }
 }
 
+/* MOBILE RESPONSIVE FIXES */
+@media (max-width: 768px) {
+  .top-center-title {
+    top: 70px !important;
+    width: 90% !important;
+    padding: 8px !important;
+  }
+  .top-center-title h1 {
+    font-size: 16px !important;
+  }
+  .top-right-controls {
+    top: auto !important;
+    bottom: 80px !important;
+    right: 10px !important;
+    flex-direction: column !important;
+  }
+  .controls-overlay {
+    bottom: 10px !important;
+    right: 10px !important;
+    left: 10px !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+  .read-article-btn {
+    bottom: 130px !important;
+  }
+  .bottom-left-text {
+    display: none !important;
+  }
+  .navbar-logo span {
+    font-size: 16px !important;
+    white-space: normal !important;
+    line-height: 1.2 !important;
+  }
+  .navbar-logo img {
+    height: 24px !important;
+  }
+  .mobile-back-btn {
+    font-size: 12px !important;
+    white-space: nowrap !important;
+  }
+}
+
 /* ONBOARDING TOUR STYLES */
 .tour-overlay {
   position: fixed;

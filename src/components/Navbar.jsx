@@ -13,7 +13,7 @@ export default function Navbar({ subjects, activeSubject, setActiveSubject, sear
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '16px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '30px' }}>
         
         {/* Logo */}
-        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 8, flexShrink: 0, textDecoration: 'none', whiteSpace: 'nowrap' }}>
+        <Link to="/" className="navbar-logo" style={{ display: 'flex', alignItems: 'center', gap: 8, flexShrink: 0, textDecoration: 'none', whiteSpace: 'nowrap' }}>
           <span style={{ fontSize: 20, fontWeight: 800, color: '#1e293b', whiteSpace: 'nowrap' }}>
             Mindmaps by
           </span>
@@ -63,7 +63,7 @@ export default function Navbar({ subjects, activeSubject, setActiveSubject, sear
 
         {/* Back button if not in gallery */}
         {!isGallery && (
-          <Link to="/" style={{ color: '#3b82f6', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 5 }}>
+          <Link to="/" className="mobile-back-btn" style={{ color: '#3b82f6', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 5 }}>
             ← Back to Gallery
           </Link>
         )}
