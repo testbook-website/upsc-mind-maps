@@ -188,7 +188,7 @@ export default function MindmapViewer({ data, isMastered, toggleMastery, isTestM
   return (
     <div style={{ width: '100%', height: 'calc(100vh - 65px)', position: 'relative', overflow: 'hidden', backgroundColor: 'var(--bg-color)' }}>
       {/* UI OVERLAY */}
-      <div id="ui-overlay" className="ui-overlay-container">
+      <div id="ui-overlay" className="ui-overlay-container" style={{ position: 'absolute', inset: 0, pointerEvents: 'none', zIndex: 100 }}>
         <div className="glass top-center-title" style={{ position: 'absolute', top: 20, left: '50%', transform: 'translateX(-50%)', padding: '10px 20px', borderRadius: 8, textAlign: 'center' }}>
           <h1 style={{ fontSize: 20, fontWeight: 700 }}>{data.topic}</h1>
           <p style={{ fontSize: 12, color: 'var(--text-light)', textTransform: 'uppercase', letterSpacing: 1 }}>{data.subject}</p>
