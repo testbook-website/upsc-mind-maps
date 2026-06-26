@@ -209,6 +209,61 @@ a {
   .node h3 { font-size: 13px; }
   .node p { font-size: 11px; }
   .root-node h2 { font-size: 16px; }
+
+  /* Gallery Mobile adjustments */
+  .mobile-swiper-slide {
+    width: 280px !important;
+    padding: 10px 0 !important;
+  }
+  .mindmap-card {
+    border-radius: 16px !important;
+  }
+  
+  /* Mindmap Viewer UI adjustments */
+  .ui-overlay-container {
+    padding: 10px;
+  }
+  .top-center-title {
+    width: 90%;
+    top: 10px !important;
+  }
+  .top-center-title h1 {
+    font-size: 16px !important;
+  }
+  .top-right-controls {
+    top: auto !important;
+    bottom: 80px !important;
+    right: 10px !important;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px !important;
+  }
+  .controls-overlay {
+    bottom: 10px !important;
+    right: 10px !important;
+    left: 10px !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .mobile-btn {
+    font-size: 12px !important;
+    padding: 6px 10px !important;
+  }
+  .bottom-left-text {
+    display: none; /* Hide URL text on very small screens */
+  }
+  .read-article-btn {
+    bottom: 140px !important; /* Move above controls */
+    padding: 8px 16px !important;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-swiper-slide {
+    width: 320px !important;
+    padding: 20px 0 !important;
+  }
 }
 
 /* GAMIFIED MODAL STYLING */

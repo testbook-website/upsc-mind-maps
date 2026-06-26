@@ -1,6 +1,43 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Tilt from 'react-parallax-tilt';
+import { Landmark, BookOpen, Globe2, Scale, TrendingUp, Leaf, FlaskConical, Shield, Palette, Briefcase, Globe, HeartHandshake, Book } from 'lucide-react';
+
+const getSubjectIcon = (subject, size = 32) => {
+  switch (subject) {
+    case 'Ancient History': return <Landmark size={size} />;
+    case 'Modern History': return <BookOpen size={size} />;
+    case 'Geography': return <Globe2 size={size} />;
+    case 'Polity': return <Scale size={size} />;
+    case 'Economy': return <TrendingUp size={size} />;
+    case 'Environment': return <Leaf size={size} />;
+    case 'Science & Tech': return <FlaskConical size={size} />;
+    case 'Internal Security': return <Shield size={size} />;
+    case 'Art & Culture': return <Palette size={size} />;
+    case 'Governance': return <Briefcase size={size} />;
+    case 'International Relations': return <Globe size={size} />;
+    case 'Ethics': return <HeartHandshake size={size} />;
+    default: return <Book size={size} />;
+  }
+};
+
+const getSubjectColor = (subject) => {
+  switch (subject) {
+    case 'Ancient History': return 'linear-gradient(135deg, #d97706, #b45309)';
+    case 'Modern History': return 'linear-gradient(135deg, #c2410c, #9a3412)';
+    case 'Geography': return 'linear-gradient(135deg, #059669, #047857)';
+    case 'Polity': return 'linear-gradient(135deg, #2563eb, #1d4ed8)';
+    case 'Economy': return 'linear-gradient(135deg, #4f46e5, #4338ca)';
+    case 'Environment': return 'linear-gradient(135deg, #16a34a, #15803d)';
+    case 'Science & Tech': return 'linear-gradient(135deg, #0284c7, #0369a1)';
+    case 'Internal Security': return 'linear-gradient(135deg, #475569, #334155)';
+    case 'Art & Culture': return 'linear-gradient(135deg, #9333ea, #7e22ce)';
+    case 'Governance': return 'linear-gradient(135deg, #0891b2, #0e7490)';
+    case 'International Relations': return 'linear-gradient(135deg, #0284c7, #0369a1)';
+    case 'Ethics': return 'linear-gradient(135deg, #65a30d, #4d7c0f)';
+    default: return 'linear-gradient(135deg, #64748b, #475569)';
+  }
+};
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, EffectCoverflow, Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -144,7 +181,7 @@ export default function Gallery({ mindmaps, activeSubject, searchTerm, masteredM
             style={{ paddingBottom: 60 }}
           >
             {filtered.map(m => (
-              <SwiperSlide key={m.id} style={{ width: 320, padding: '20px 0' }}>
+              <SwiperSlide key={m.id} className="mobile-swiper-slide">
                 <MindmapCard data={m} isMastered={masteredMindmaps.includes(m.id)} />
               </SwiperSlide>
             ))}
@@ -204,29 +241,43 @@ export default function Gallery({ mindmaps, activeSubject, searchTerm, masteredM
 function MindmapCard({ data, isMastered }) {
   return (
     <Link to={`/mindmap/${data.id}`} style={{ display: 'block', textDecoration: 'none' }}>
-      <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.02} transitionSpeed={2000} className="glass" style={{
-        borderRadius: 20,
+      <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.02} transitionSpeed={2000} className="glass mindmap-card" style={{
         height: '100%',
+        borderRadius: 20,
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between',
-        cursor: 'pointer',
-        background: '#ffffff',
-        border: '1px solid #e2e8f0',
-        boxShadow: '0 10px 25px rgba(0,0,0,0.05)',
+        boxShadow: '0 20px 40px rgba(0,0,0,0.06)',
+        border: '1px solid rgba(255,255,255,0.6)',
         overflow: 'hidden'
       }}>
-        {data.imageUrl && (
-          <div style={{ height: 160, width: '100%', overflow: 'hidden', position: 'relative' }}>
-            <img src={data.imageUrl} alt={data.topic} className="zoom-img" style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s ease' }} />
+        {/* TYPOGRAPHIC HEADER */}
+        <div style={{ 
+          height: 180, width: '100%', position: 'relative', 
+          background: getSubjectColor(data.subject),
+          color: 'white', padding: '24px',
+          display: 'flex', flexDirection: 'column', justifyContent: 'space-between'
+        }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+            <div style={{ background: 'rgba(255,255,255,0.2)', padding: '10px', borderRadius: '12px', backdropFilter: 'blur(5px)' }}>
+              {getSubjectIcon(data.subject, 28)}
+            </div>
             {isMastered && (
-              <div style={{ position: 'absolute', top: 10, right: 10, background: '#10b981', color: 'white', padding: '4px 10px', borderRadius: 20, fontSize: 12, fontWeight: 'bold', boxShadow: '0 4px 6px rgba(16,185,129,0.3)', display: 'flex', alignItems: 'center', gap: 4 }}>
+              <div style={{ background: '#10b981', color: 'white', padding: '4px 10px', borderRadius: 20, fontSize: 12, fontWeight: 'bold', boxShadow: '0 4px 6px rgba(16,185,129,0.3)', display: 'flex', alignItems: 'center', gap: 4 }}>
                 ✓ Mastered
               </div>
             )}
           </div>
-        )}
-        <div style={{ padding: 30, display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'space-between', position: 'relative' }}>
+          <div>
+            <h3 style={{ fontSize: 22, fontWeight: 800, marginBottom: 4, lineHeight: 1.2 }}>{data.topic}</h3>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 13, opacity: 0.9 }}>
+              <span>{data.subject}</span>
+              <span style={{ width: 4, height: 4, borderRadius: '50%', background: 'currentColor' }}></span>
+              <span style={{ fontWeight: 'bold' }}>{data.gsPaper}</span>
+            </div>
+          </div>
+        </div>
+
+        <div style={{ padding: 24, display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'space-between', position: 'relative', background: 'white' }}>
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 15 }}>
               <span style={{ 
@@ -237,17 +288,11 @@ function MindmapCard({ data, isMastered }) {
               }}>
                 {data.subject}
               </span>
-              {!data.imageUrl && isMastered && (
-                <span style={{ color: '#10b981', fontWeight: 'bold', fontSize: 12, display: 'flex', alignItems: 'center', gap: 4 }}>
-                  ✓ Mastered
-                </span>
-              )}
             </div>
-            <h3 style={{ fontSize: 22, color: '#0f172a', marginBottom: 10, lineHeight: 1.3, fontWeight: 800 }}>{data.topic}</h3>
-            <p style={{ fontSize: 14, color: '#64748b', lineHeight: 1.5 }}>Interactive flowchart with {data.branches.length} main branches and detailed facts.</p>
+            <p style={{ fontSize: 14, color: '#64748b', lineHeight: 1.5, marginTop: 10 }}>Interactive flowchart with {data.branches.length} main branches and detailed facts.</p>
           </div>
           
-          <div style={{ marginTop: 20, color: '#3b82f6', fontWeight: 700, display: 'flex', alignItems: 'center', gap: 5 }}>
+          <div style={{ display: 'flex', alignItems: 'center', color: '#3b82f6', fontWeight: 700, fontSize: 14, marginTop: 20, gap: 5 }}>
             Explore Flowchart &rarr;
           </div>
         </div>

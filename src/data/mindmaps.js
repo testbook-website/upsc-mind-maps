@@ -4,8 +4,8 @@ export const mindmaps = [
     "id": "aeps-upsc-notes",
     "topic": "Aadhaar Enabled Payment System",
     "subject": "Economy",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/aeps-upsc-notes",
-    "imageUrl": "/aeps_concept.png",
     "root": "AePS",
     "branches": [
       {
@@ -49,21 +49,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -94,8 +94,8 @@ export const mindmaps = [
     "id": "manipur-violence-explained",
     "topic": "2023 Manipur Violence",
     "subject": "Internal Security",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/manipur-violence-explained",
-    "imageUrl": "/manipur_concept.png",
     "root": "MANIPUR",
     "branches": [
       {
@@ -139,21 +139,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -184,8 +184,8 @@ export const mindmaps = [
     "id": "buddhism-upsc-notes",
     "topic": "Buddhism Notes",
     "subject": "Ancient History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/buddhism-upsc-notes",
-    "imageUrl": "/buddhism_concept.png",
     "root": "BUDDHISM",
     "branches": [
       {
@@ -229,21 +229,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -274,8 +274,8 @@ export const mindmaps = [
     "id": "climate-change",
     "topic": "Climate Change & UNFCCC",
     "subject": "Environment",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/climate-change",
-    "imageUrl": "/climate_concept.png",
     "root": "CLIMATE",
     "branches": [
       {
@@ -319,21 +319,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -364,8 +364,8 @@ export const mindmaps = [
     "id": "reserve-bank-of-india",
     "topic": "Reserve Bank of India",
     "subject": "Economy",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/reserve-bank-of-india",
-    "imageUrl": "/rbi_concept.png",
     "root": "RBI",
     "branches": [
       {
@@ -409,21 +409,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -454,8 +454,8 @@ export const mindmaps = [
     "id": "constitution-of-india",
     "topic": "Constitution of India",
     "subject": "Polity",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/constitution-of-india",
-    "imageUrl": "/polity_concept.png",
     "root": "CONSTITUTION",
     "branches": [
       {
@@ -499,21 +499,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -544,8 +544,8 @@ export const mindmaps = [
     "id": "space-exploration",
     "topic": "Space Exploration",
     "subject": "Science & Tech",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/space-exploration",
-    "imageUrl": "/space_concept.png",
     "root": "ISRO",
     "branches": [
       {
@@ -589,21 +589,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -634,8 +634,8 @@ export const mindmaps = [
     "id": "harappan-civilization",
     "topic": "Harappan Civilization",
     "subject": "Ancient History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/harappan-civilization",
-    "imageUrl": "/harappa_concept.png",
     "root": "IVC",
     "branches": [
       {
@@ -679,21 +679,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -724,8 +724,8 @@ export const mindmaps = [
     "id": "physical-geography",
     "topic": "Physical Geography",
     "subject": "Geography",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/physical-geography",
-    "imageUrl": "/geography_concept.png",
     "root": "GEOGRAPHY",
     "branches": [
       {
@@ -769,21 +769,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -814,8 +814,8 @@ export const mindmaps = [
     "id": "agriculture-notes-for-upsc",
     "topic": "Agriculture in India",
     "subject": "Economy",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/agriculture-notes-for-upsc",
-    "imageUrl": "/agriculture_concept.png",
     "root": "AGRICULTURE",
     "branches": [
       {
@@ -859,21 +859,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -904,8 +904,8 @@ export const mindmaps = [
     "id": "inflation-monetary-policy",
     "topic": "Inflation & Monetary Policy",
     "subject": "Economy",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/inflation-monetary-policy",
-    "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=800",
     "root": "INFLATION",
     "branches": [
       {
@@ -949,21 +949,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -994,8 +994,8 @@ export const mindmaps = [
     "id": "national-income-accounting",
     "topic": "National Income Accounting",
     "subject": "Internal Security",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/national-income-accounting",
-    "imageUrl": "https://images.unsplash.com/photo-1621243801267-33671cd72223?auto=format&fit=crop&q=80&w=800",
     "root": "NATIONAL",
     "branches": [
       {
@@ -1039,21 +1039,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1084,8 +1084,8 @@ export const mindmaps = [
     "id": "poverty-unemployment",
     "topic": "Poverty & Unemployment",
     "subject": "Ancient History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/poverty-unemployment",
-    "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
     "root": "POVERTY",
     "branches": [
       {
@@ -1129,21 +1129,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1174,8 +1174,8 @@ export const mindmaps = [
     "id": "cyber-security-threats",
     "topic": "Cyber Security Threats",
     "subject": "Environment",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/cyber-security-threats",
-    "imageUrl": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800",
     "root": "CYBER",
     "branches": [
       {
@@ -1219,21 +1219,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1264,8 +1264,8 @@ export const mindmaps = [
     "id": "naxalism-in-india",
     "topic": "Naxalism in India",
     "subject": "Polity",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/naxalism-in-india",
-    "imageUrl": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=800",
     "root": "NAXALISM",
     "branches": [
       {
@@ -1309,21 +1309,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1354,8 +1354,8 @@ export const mindmaps = [
     "id": "border-management",
     "topic": "Border Management",
     "subject": "Science & Tech",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/border-management",
-    "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=800",
     "root": "BORDER",
     "branches": [
       {
@@ -1399,21 +1399,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1444,8 +1444,8 @@ export const mindmaps = [
     "id": "mauryan-empire",
     "topic": "Mauryan Empire",
     "subject": "Geography",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/mauryan-empire",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
     "root": "MAURYAN",
     "branches": [
       {
@@ -1489,21 +1489,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1534,8 +1534,8 @@ export const mindmaps = [
     "id": "gupta-empire",
     "topic": "Gupta Empire",
     "subject": "Modern History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/gupta-empire",
-    "imageUrl": "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800",
     "root": "GUPTA",
     "branches": [
       {
@@ -1579,21 +1579,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1624,8 +1624,8 @@ export const mindmaps = [
     "id": "vedic-period",
     "topic": "Vedic Period",
     "subject": "Art & Culture",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/vedic-period",
-    "imageUrl": "https://images.unsplash.com/photo-1447015237013-0e80b2786ddc?auto=format&fit=crop&q=80&w=800",
     "root": "VEDIC",
     "branches": [
       {
@@ -1669,21 +1669,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1714,8 +1714,8 @@ export const mindmaps = [
     "id": "biodiversity-conservation",
     "topic": "Biodiversity Conservation",
     "subject": "Governance",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/biodiversity-conservation",
-    "imageUrl": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&q=80&w=800",
     "root": "BIODIVERSITY",
     "branches": [
       {
@@ -1759,21 +1759,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1804,8 +1804,8 @@ export const mindmaps = [
     "id": "pollution-control-boards",
     "topic": "Pollution Control Boards",
     "subject": "International Relations",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/pollution-control-boards",
-    "imageUrl": "https://images.unsplash.com/photo-1506869640319-ce1a44e94b29?auto=format&fit=crop&q=80&w=800",
     "root": "POLLUTION",
     "branches": [
       {
@@ -1849,21 +1849,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1894,8 +1894,8 @@ export const mindmaps = [
     "id": "wildlife-protection-act",
     "topic": "Wildlife Protection Act",
     "subject": "Ethics",
+    "gsPaper": "GS Paper 4",
     "url": "https://testbook.com/ias-preparation/wildlife-protection-act",
-    "imageUrl": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=800",
     "root": "WILDLIFE",
     "branches": [
       {
@@ -1939,21 +1939,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -1984,8 +1984,8 @@ export const mindmaps = [
     "id": "fundamental-rights",
     "topic": "Fundamental Rights",
     "subject": "Economy",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/fundamental-rights",
-    "imageUrl": "https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&q=80&w=800",
     "root": "FUNDAMENTAL",
     "branches": [
       {
@@ -2029,21 +2029,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2074,8 +2074,8 @@ export const mindmaps = [
     "id": "directive-principles",
     "topic": "Directive Principles",
     "subject": "Internal Security",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/directive-principles",
-    "imageUrl": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=800",
     "root": "DIRECTIVE",
     "branches": [
       {
@@ -2119,21 +2119,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2164,8 +2164,8 @@ export const mindmaps = [
     "id": "parliamentary-system",
     "topic": "Parliamentary System",
     "subject": "Ancient History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/parliamentary-system",
-    "imageUrl": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&q=80&w=800",
     "root": "PARLIAMENTARY",
     "branches": [
       {
@@ -2209,21 +2209,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2254,6 +2254,7 @@ export const mindmaps = [
     "id": "biotechnology-applications",
     "topic": "Biotechnology Applications",
     "subject": "Environment",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/biotechnology-applications",
     "root": "BIOTECHNOLOGY",
     "branches": [
@@ -2298,21 +2299,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2343,6 +2344,7 @@ export const mindmaps = [
     "id": "nanotechnology",
     "topic": "Nanotechnology",
     "subject": "Polity",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/nanotechnology",
     "root": "NANOTECHNOLOGY",
     "branches": [
@@ -2387,21 +2389,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2432,6 +2434,7 @@ export const mindmaps = [
     "id": "artificial-intelligence",
     "topic": "Artificial Intelligence",
     "subject": "Science & Tech",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/artificial-intelligence",
     "root": "ARTIFICIAL",
     "branches": [
@@ -2476,21 +2479,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2521,6 +2524,7 @@ export const mindmaps = [
     "id": "indian-monsoon-system",
     "topic": "Indian Monsoon System",
     "subject": "Geography",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/indian-monsoon-system",
     "root": "INDIAN",
     "branches": [
@@ -2565,21 +2569,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2610,6 +2614,7 @@ export const mindmaps = [
     "id": "plate-tectonics",
     "topic": "Plate Tectonics",
     "subject": "Modern History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/plate-tectonics",
     "root": "PLATE",
     "branches": [
@@ -2654,21 +2659,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2699,6 +2704,7 @@ export const mindmaps = [
     "id": "ocean-currents",
     "topic": "Ocean Currents",
     "subject": "Art & Culture",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/ocean-currents",
     "root": "OCEAN",
     "branches": [
@@ -2743,21 +2749,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2788,6 +2794,7 @@ export const mindmaps = [
     "id": "indian-freedom-struggle",
     "topic": "Indian Freedom Struggle",
     "subject": "Governance",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/indian-freedom-struggle",
     "root": "INDIAN",
     "branches": [
@@ -2832,21 +2839,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2877,6 +2884,7 @@ export const mindmaps = [
     "id": "revolt-of-1857",
     "topic": "Revolt of 1857",
     "subject": "International Relations",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/revolt-of-1857",
     "root": "REVOLT",
     "branches": [
@@ -2921,21 +2929,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -2966,6 +2974,7 @@ export const mindmaps = [
     "id": "indian-national-congress",
     "topic": "Indian National Congress",
     "subject": "Ethics",
+    "gsPaper": "GS Paper 4",
     "url": "https://testbook.com/ias-preparation/indian-national-congress",
     "root": "INDIAN",
     "branches": [
@@ -3010,21 +3019,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3055,6 +3064,7 @@ export const mindmaps = [
     "id": "temple-architecture",
     "topic": "Temple Architecture",
     "subject": "Economy",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/temple-architecture",
     "root": "TEMPLE",
     "branches": [
@@ -3099,21 +3109,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3144,6 +3154,7 @@ export const mindmaps = [
     "id": "classical-dances",
     "topic": "Classical Dances",
     "subject": "Internal Security",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/classical-dances",
     "root": "CLASSICAL",
     "branches": [
@@ -3188,21 +3199,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3233,6 +3244,7 @@ export const mindmaps = [
     "id": "indian-paintings",
     "topic": "Indian Paintings",
     "subject": "Ancient History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/indian-paintings",
     "root": "INDIAN",
     "branches": [
@@ -3277,21 +3289,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3322,6 +3334,7 @@ export const mindmaps = [
     "id": "e-governance-in-india",
     "topic": "E-Governance in India",
     "subject": "Environment",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/e-governance-in-india",
     "root": "E-GOVERNANCE",
     "branches": [
@@ -3366,21 +3379,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3411,6 +3424,7 @@ export const mindmaps = [
     "id": "rti-act-2005",
     "topic": "RTI Act 2005",
     "subject": "Polity",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/rti-act-2005",
     "root": "RTI",
     "branches": [
@@ -3455,21 +3469,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3500,6 +3514,7 @@ export const mindmaps = [
     "id": "civil-services-reforms",
     "topic": "Civil Services Reforms",
     "subject": "Science & Tech",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/civil-services-reforms",
     "root": "CIVIL",
     "branches": [
@@ -3544,21 +3559,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3589,6 +3604,7 @@ export const mindmaps = [
     "id": "india-usa-relations",
     "topic": "India-USA Relations",
     "subject": "Geography",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/india-usa-relations",
     "root": "INDIA-USA",
     "branches": [
@@ -3633,21 +3649,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3678,6 +3694,7 @@ export const mindmaps = [
     "id": "india-china-border-dispute",
     "topic": "India-China Border Dispute",
     "subject": "Modern History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/india-china-border-dispute",
     "root": "INDIA-CHINA",
     "branches": [
@@ -3722,21 +3739,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3767,6 +3784,7 @@ export const mindmaps = [
     "id": "united-nations-reforms",
     "topic": "United Nations Reforms",
     "subject": "Art & Culture",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/united-nations-reforms",
     "root": "UNITED",
     "branches": [
@@ -3811,21 +3829,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3856,6 +3874,7 @@ export const mindmaps = [
     "id": "emotional-intelligence",
     "topic": "Emotional Intelligence",
     "subject": "Governance",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/emotional-intelligence",
     "root": "EMOTIONAL",
     "branches": [
@@ -3900,21 +3919,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -3945,6 +3964,7 @@ export const mindmaps = [
     "id": "probity-in-governance",
     "topic": "Probity in Governance",
     "subject": "International Relations",
+    "gsPaper": "GS Paper 2",
     "url": "https://testbook.com/ias-preparation/probity-in-governance",
     "root": "PROBITY",
     "branches": [
@@ -3989,21 +4009,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -4034,6 +4054,7 @@ export const mindmaps = [
     "id": "moral-philosophers",
     "topic": "Moral Philosophers",
     "subject": "Ethics",
+    "gsPaper": "GS Paper 4",
     "url": "https://testbook.com/ias-preparation/moral-philosophers",
     "root": "MORAL",
     "branches": [
@@ -4078,21 +4099,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -4123,6 +4144,7 @@ export const mindmaps = [
     "id": "fiscal-policy-budget",
     "topic": "Fiscal Policy & Budget",
     "subject": "Economy",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/fiscal-policy-budget",
     "root": "FISCAL",
     "branches": [
@@ -4167,21 +4189,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -4212,6 +4234,7 @@ export const mindmaps = [
     "id": "world-trade-organization",
     "topic": "World Trade Organization",
     "subject": "Internal Security",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/world-trade-organization",
     "root": "WORLD",
     "branches": [
@@ -4256,21 +4279,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -4301,6 +4324,7 @@ export const mindmaps = [
     "id": "disaster-management-framework",
     "topic": "Disaster Management Framework",
     "subject": "Ancient History",
+    "gsPaper": "GS Paper 1",
     "url": "https://testbook.com/ias-preparation/disaster-management-framework",
     "root": "DISASTER",
     "branches": [
@@ -4345,21 +4369,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]
@@ -4390,6 +4414,7 @@ export const mindmaps = [
     "id": "sangam-literature",
     "topic": "Sangam Literature",
     "subject": "Environment",
+    "gsPaper": "GS Paper 3",
     "url": "https://testbook.com/ias-preparation/sangam-literature",
     "root": "SANGAM",
     "branches": [
@@ -4434,21 +4459,21 @@ export const mindmaps = [
         ]
       },
       {
-        "title": "Challenges & Issues",
+        "title": "Significance & Challenges",
         "color": "#8b5cf6",
         "children": [
           {
-            "title": "Current Hurdles",
+            "title": "Significance",
             "facts": [
-              "Implementation gap",
-              "Resource constraints"
+              "Importance of the topic",
+              "Positive impacts and benefits"
             ]
           },
           {
-            "title": "Future Risks",
+            "title": "Challenges",
             "facts": [
-              "Long-term sustainability",
-              "Policy bottlenecks"
+              "Implementation hurdles",
+              "Future risks and bottlenecks"
             ]
           }
         ]

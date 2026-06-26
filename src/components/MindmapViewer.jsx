@@ -1,6 +1,42 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Share2, Bookmark, CheckCircle2, BrainCircuit } from 'lucide-react';
+import { Share2, Bookmark, CheckCircle2, BrainCircuit, Landmark, BookOpen, Globe2, Scale, TrendingUp, Leaf, FlaskConical, Shield, Palette, Briefcase, Globe, HeartHandshake, Book } from 'lucide-react';
 import * as htmlToImage from 'html-to-image';
+
+const getSubjectIcon = (subject, size = 32) => {
+  switch (subject) {
+    case 'Ancient History': return <Landmark size={size} />;
+    case 'Modern History': return <BookOpen size={size} />;
+    case 'Geography': return <Globe2 size={size} />;
+    case 'Polity': return <Scale size={size} />;
+    case 'Economy': return <TrendingUp size={size} />;
+    case 'Environment': return <Leaf size={size} />;
+    case 'Science & Tech': return <FlaskConical size={size} />;
+    case 'Internal Security': return <Shield size={size} />;
+    case 'Art & Culture': return <Palette size={size} />;
+    case 'Governance': return <Briefcase size={size} />;
+    case 'International Relations': return <Globe size={size} />;
+    case 'Ethics': return <HeartHandshake size={size} />;
+    default: return <Book size={size} />;
+  }
+};
+
+const getSubjectColor = (subject) => {
+  switch (subject) {
+    case 'Ancient History': return 'linear-gradient(135deg, #d97706, #b45309)';
+    case 'Modern History': return 'linear-gradient(135deg, #c2410c, #9a3412)';
+    case 'Geography': return 'linear-gradient(135deg, #059669, #047857)';
+    case 'Polity': return 'linear-gradient(135deg, #2563eb, #1d4ed8)';
+    case 'Economy': return 'linear-gradient(135deg, #4f46e5, #4338ca)';
+    case 'Environment': return 'linear-gradient(135deg, #16a34a, #15803d)';
+    case 'Science & Tech': return 'linear-gradient(135deg, #0284c7, #0369a1)';
+    case 'Internal Security': return 'linear-gradient(135deg, #475569, #334155)';
+    case 'Art & Culture': return 'linear-gradient(135deg, #9333ea, #7e22ce)';
+    case 'Governance': return 'linear-gradient(135deg, #0891b2, #0e7490)';
+    case 'International Relations': return 'linear-gradient(135deg, #0284c7, #0369a1)';
+    case 'Ethics': return 'linear-gradient(135deg, #65a30d, #4d7c0f)';
+    default: return 'linear-gradient(135deg, #64748b, #475569)';
+  }
+};
 
 export default function MindmapViewer({ data, isMastered, toggleMastery, isTestMode, setIsTestMode }) {
   const viewportRef = useRef(null);
@@ -152,13 +188,13 @@ export default function MindmapViewer({ data, isMastered, toggleMastery, isTestM
   return (
     <div style={{ width: '100%', height: 'calc(100vh - 65px)', position: 'relative', overflow: 'hidden', backgroundColor: 'var(--bg-color)' }}>
       {/* UI OVERLAY */}
-      <div id="ui-overlay" style={{ position: 'absolute', inset: 0, pointerEvents: 'none', zIndex: 100 }}>
-        <div className="glass" style={{ position: 'absolute', top: 20, left: '50%', transform: 'translateX(-50%)', padding: '10px 20px', borderRadius: 8, textAlign: 'center' }}>
+      <div id="ui-overlay" className="ui-overlay-container">
+        <div className="glass top-center-title" style={{ position: 'absolute', top: 20, left: '50%', transform: 'translateX(-50%)', padding: '10px 20px', borderRadius: 8, textAlign: 'center' }}>
           <h1 style={{ fontSize: 20, fontWeight: 700 }}>{data.topic}</h1>
           <p style={{ fontSize: 12, color: 'var(--text-light)', textTransform: 'uppercase', letterSpacing: 1 }}>{data.subject}</p>
         </div>
 
-        <div style={{ position: 'absolute', top: 20, right: 20, display: 'flex', gap: 10, pointerEvents: 'auto' }}>
+        <div className="top-right-controls" style={{ position: 'absolute', top: 20, right: 20, display: 'flex', gap: 10, pointerEvents: 'auto' }}>
           <button 
             onClick={() => setIsTestMode(!isTestMode)}
             style={{ 
@@ -178,12 +214,12 @@ export default function MindmapViewer({ data, isMastered, toggleMastery, isTestM
           </div>
         </div>
 
-        <div style={{ position: 'absolute', bottom: 20, left: 20 }}>
+        <div className="bottom-left-text" style={{ position: 'absolute', bottom: 20, left: 20 }}>
           <span style={{ fontSize: 14, color: 'var(--text-light)', fontWeight: 500 }}>testbook.com/upsc-prep-lab-coaching</span>
         </div>
 
-        <div id="controls-overlay" className="glass" style={{ position: 'absolute', bottom: 20, right: 20, padding: '10px 15px', borderRadius: 8, display: 'flex', gap: 10, pointerEvents: 'auto' }}>
-          <button onClick={toggleMastery} style={{ background: isMastered ? '#10b981' : '#f1f5f9', color: isMastered ? 'white' : '#475569', border: 'none', padding: '8px 12px', borderRadius: 6, cursor: 'pointer', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 6, transition: 'all 0.2s' }}>
+        <div id="controls-overlay" className="glass controls-overlay" style={{ position: 'absolute', bottom: 20, right: 20, padding: '10px 15px', borderRadius: 8, display: 'flex', gap: 10, pointerEvents: 'auto' }}>
+          <button onClick={toggleMastery} className="mobile-btn" style={{ background: isMastered ? '#10b981' : '#f1f5f9', color: isMastered ? 'white' : '#475569', border: 'none', padding: '8px 12px', borderRadius: 6, cursor: 'pointer', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 6, transition: 'all 0.2s' }}>
             <CheckCircle2 size={16} /> {isMastered ? 'Mastered' : 'Mark Mastered'}
           </button>
           <div style={{ width: 1, background: '#cbd5e1', margin: '0 5px' }}></div>
@@ -206,6 +242,7 @@ export default function MindmapViewer({ data, isMastered, toggleMastery, isTestM
           href={data.url}
           target="_blank"
           rel="noopener noreferrer"
+          className="read-article-btn"
           style={{
             position: 'absolute', bottom: 20, left: '50%', transform: 'translateX(-50%)',
             background: 'linear-gradient(135deg, #f59e0b, #d97706)',
@@ -214,7 +251,7 @@ export default function MindmapViewer({ data, isMastered, toggleMastery, isTestM
             boxShadow: '0 10px 15px rgba(0,0,0,0.2)', pointerEvents: 'auto'
           }}
         >
-          Read Article Transaction
+          Read Article
           <svg className="bounce-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="5" y1="12" x2="19" y2="12"></line>
             <polyline points="12 5 19 12 12 19"></polyline>
@@ -242,11 +279,9 @@ export default function MindmapViewer({ data, isMastered, toggleMastery, isTestM
                 style={{ cursor: 'pointer', padding: 0, overflow: 'hidden' }}
                 onClick={(e) => toggleNode('root', e)}
               >
-                {data.imageUrl && (
-                  <div style={{ height: 140, width: '100%', borderBottom: '3px solid #cbd5e1' }}>
-                    <img src={data.imageUrl} alt={data.topic} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
-                  </div>
-                )}
+                <div style={{ height: 120, width: '100%', background: getSubjectColor(data.subject), display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white' }}>
+                  {getSubjectIcon(data.subject, 48)}
+                </div>
                 <div style={{ padding: '16px 24px' }}>
                   <h2>{data.root}</h2>
                   {!expandedNodes['root'] && (
